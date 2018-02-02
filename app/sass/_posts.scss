@@ -1,0 +1,14 @@
+.page-wrapper-archive {
+  @include flexCenterCenter;
+  flex-wrap: wrap;
+  max-width: 940px;
+}
+
+#post-thumbnail {
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

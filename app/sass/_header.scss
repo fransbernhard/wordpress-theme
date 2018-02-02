@@ -1,0 +1,17 @@
+nav {
+  background: map-get($colors, white);
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  z-index: 10;
+  border-top: 1px solid black;
+}
+
+#menu-primary-menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 0!important;
+  li {
+    padding: 10px;
+  }
+}

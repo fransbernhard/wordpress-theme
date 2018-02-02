@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  font-family: 'GFS Didot', serif, arial;
+}
+
+*:focus {
+  outline: none;
+}
+
+.page-container {
+  width: 100vw;
+  @include flexColumnCenterCenter;
+}
+
+.page-wrapper {
+  max-width: 940px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0px;
+}
+
+.flower-container {
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+#big-video {
+    // position: absolute;
+    // background: #000;
+    top: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#big-video .video {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @include bg;
+    z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+#big-video .video .hihi {
+    z-index: 44;
+}
+
+#big-video video {
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+#big-video .video-element {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    @include bg;
+}

@@ -8,13 +8,13 @@ Simple wordpress theme used as backend for the React.js SPA *wordpress-reactSass
 **Download a local wordpress installation**
 https://wordpress.org/download/
 
-**Download plugins**
+#### Download plugins
 Install and activate plugins:
 - ACF 
 - ACF to REST API
 - WP Rest API
 
-**Import database**
+#### Import database
 Create a empty database and import tables from SQL file from "database" folder, update wp-config.php file to connect to database. 
 
 ### Install theme

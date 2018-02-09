@@ -5,10 +5,11 @@ Simple wordpress theme used as backend for the React.js SPA *wordpress-reactSass
 *Project requires Node.js v6+ to run.*
 
 ### Install Wordpress
-**Download a local wordpress installation**
+
+#### Download a local wordpress installation
 https://wordpress.org/download/
 
-#### Download plugins
+#### Install plugins
 Install and activate plugins:
 - ACF 
 - ACF to REST API

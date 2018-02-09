@@ -1,5 +1,5 @@
 # wrdpress theme
-React SPA connected to Wordpress REST API - this being the theme
+Simple wordpress theme used as backend for the React.js SPA *wordpress-reactSassWebpack* connected via the Wordpress REST API
 
 ## Installation
 *Project requires Node.js v6+ to run.*
